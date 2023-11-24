@@ -1,0 +1,1 @@
+1. Center text in input in >=500px vw
