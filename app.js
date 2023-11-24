@@ -16,8 +16,8 @@ const cardsAr = [
   },
   {
     card: 3,
-    title: "React",
-    img: "./images/react.png",
+    title: "Weather App",
+    img: "./images/weather.png",
     link: "",
     text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, itaque doloremque tempora quia veniam expedita.",
   },
@@ -40,6 +40,8 @@ const cardsAr = [
 // target where to display the cards i.e .projects
 const projectsEl = document.querySelector(".projects");
 const card = document.querySelector(".cards");
+const timeEl = document.getElementById("time")
+timeEl.innerText = new Date().toDateString();
 
 // Event listener for when dom is loaded
 window.addEventListener("DOMContentLoaded", function () {
