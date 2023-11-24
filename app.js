@@ -11,7 +11,7 @@ const cardsAr = [
     card: 2,
     title: "ACK Menu",
     img: "./images/ack.png",
-    link: `https://victor-net.github.io/ack-menu/`,
+    link: `https://victor-net.github.io/js-menu/`,
     text: "A menu for a restaurant or cafe. Built using JavaScript, HTML and CSS",
   },
   {
