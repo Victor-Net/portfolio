@@ -17,7 +17,7 @@ const cardsAr = [
   {
     card: "weather",
     title: "Weather App",
-    img: "./images/react.png",
+    img: "./images/weather.png",
     link: "",
     text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, itaque doloremque tempora quia veniam expedita.",
   },
