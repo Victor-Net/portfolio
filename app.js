@@ -67,9 +67,9 @@ const showCards = () => {
   projectsEl.innerHTML = showCard;
 
   // To remove link from portfolio
-  // if (card.classList.contains("portfolio")) {
-  //   card.classList.add()
-  // }
+  // 
+  // 
+  
 };
 
 let date = document.querySelector(".date");
