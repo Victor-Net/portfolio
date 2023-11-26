@@ -5,7 +5,7 @@ const cardsAr = [
     title: "Portfolio",
     img: "./images/portfolio.png",
     link: "https://victor-net.github.io/portfolio",
-    text: "This is the site with the projects I have done.",
+    text: "This is the current page containing the projects I have built.",
   },
   {
     card: "weather",
