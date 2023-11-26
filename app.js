@@ -12,7 +12,7 @@ const cardsAr = [
     title: "Weather App",
     img: "./images/weather.png",
     link: "https://victor-net.github.io/weather-app",
-    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, itaque doloremque tempora quia veniam expedita.",
+    text: "View the town, city or country you searched for and get the temperature, weather and the sunrise and sunset. Built using JavaScript, CSS, HTML and some Bootstrap",
   },
   {
     card: "menu",
