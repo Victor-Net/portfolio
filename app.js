@@ -17,7 +17,7 @@ const cardsAr = [
   {
     card: "menu",
     title: "Menu",
-    img: "./images/ack.png",
+    img: "./images/js-menu.jpg",
     link: "https://victor-net.github.io/js-menu",
     text: "A menu for a restaurant or cafe. Built using JavaScript, HTML and CSS",
   },
@@ -53,14 +53,15 @@ window.addEventListener("DOMContentLoaded", () => {
 const showCards = () => {
   let showCard = cardsAr.map((card) => {
     return `<div class="card ${card.card}">
+        <a href=${card.link} target="_blank">
         <img src=${card.img} alt=${card.alt}/>
         <div class="card-info">
           <h3>${card.title}</h3>
           <p>
-            <a href=${card.link} target="_blank">${card.text}
-            </a>
-          </p>
-      </div>
+            ${card.text}
+            </p>
+          </div>
+          </a>
     </div>`;
   });
   showCard = showCard.join(""); // join method fixes the comma issue after every card
